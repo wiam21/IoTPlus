@@ -44,26 +44,6 @@ public class GestionCamMain {
         } catch (IOException e) {
             e.printStackTrace();
         }
-       /*
-        URL url = null;
-        try {url = new URL("https://polytech-iotready-es.cantor.fr");}
-        catch (MalformedURLException e) {e.printStackTrace();}
-
-        String Method = "POST";
-        HttpURLConnection con = null;
-        try {con = setConnection(url, Method);}
-        catch (IOException e) {e.printStackTrace();}
-
-        try {sendData(con, MyJSON);}
-        catch (IOException e) {e.printStackTrace();}
-
-        try (InputStream is = con.getInputStream())
-        {
-            System.out.println("Post inputStream "+read(is));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        */
     }
 
 
